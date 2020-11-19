@@ -1,0 +1,23 @@
+.logo img{
+    width: 170px;
+    /* height: 50px; */
+}
+.navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li .s_button{
+    padding: 10px 20px !important;
+}
+
+.navigation ul li a {
+    font-size: 18px;
+    color: #263f44;
+    font-weight: 500;
+    
+  font-family: 'Montserrat', sans-serif;
+}
+.navigation ul li.active{
+    font-weight: 600;
+}
