@@ -5,6 +5,7 @@ import fb from '../../images/facebook.png'
 import twitter from '../../images/twitter.png'
 import ball from '../../images/ball.png'
 import linkedin from '../../images/linkedin.png'
+import be from '../../images/be.png'
 
 
 const Footer = () => {
@@ -27,7 +28,7 @@ const Footer = () => {
                             <img src={twitter} alt="" width="20px" className="mr-3" />
                             <img src={linkedin} alt="" width="20px" className="mr-3" />
                             <img src={ball} alt="" width="20px" className="mr-3" />
-                            <img src={fb} alt="" width="20px" className="mr-3" />
+                            <img src={be} alt="" width="20px" className="mr-3" />
                         </div>
                     </div>
                     <div className="col-lg-2 text-color py-3">
