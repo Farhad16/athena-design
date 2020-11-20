@@ -2,16 +2,15 @@
     background: url('../../images/top-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 100vh;
+    background-position: center top;
 }
 
 .header-content{
     padding-top: 60px;
 }
-h1{
+.header-title{
     font-family: 'Yeseva One', cursive;
-    font-size: 90px;
+    font-size: 60px;
 }
 .hero-img{
     display: flex;
@@ -24,3 +23,14 @@ h1{
 }
 
 
+.s_button {
+    background: rgb(27,214,188);
+    background: linear-gradient(90deg, rgba(27,214,188,1) 0%, rgba(16,191,214,1) 50%, rgba(7,172,236,1) 100%);
+    padding: 15px 30px;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    border-radius: 30px 0 30px 0;
+    text-decoration: none!important;
+    font-weight: 500;
+}
