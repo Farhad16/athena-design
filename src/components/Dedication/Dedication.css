@@ -1,0 +1,55 @@
+.dedication{
+    
+    background: url('../../images/Group\ 46@2x.png') rgb(250, 255, 253) right 500px bottom -600px no-repeat;
+   
+  
+  
+  height: 100vh; 
+
+    
+}
+.section-title h2{
+    text-align: center!important;
+}
+
+.card-button{
+      background-image: linear-gradient(-37.714deg,#2af598,#009efd);
+     
+      padding: 20px 40px;
+        color: #fff; 
+    
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+     
+      border-radius: 0 35px 0 35px;
+      text-decoration: none!important;
+      font-weight: 500;
+      display: none;
+      width: 180px;
+      height: 60px;
+      margin: auto; 
+
+}
+.line{
+    color: #ade9e7;
+}
+.card{
+    box-shadow: 5px 5px 5px 5px rgb(238, 243, 241);
+    height: 400px;
+    text-align: center!important;
+   
+}
+.card:hover .card-button{
+  /* //  display: block; */
+
+  display: block;
+  
+
+}
+.card:hover{
+    border: 2px solid #90efdf;
+
+}
+.card:hover .line{
+    display: none;
+}
