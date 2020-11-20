@@ -1,0 +1,44 @@
+.title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+}
+.button {
+   background-color: white;
+    padding: 20px 40px;
+    box-shadow: 10px 10px 10px 10px#ecfdf5;
+    color: black;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+  
+    border-radius: 0 35px 0 35px;
+    text-decoration: none!important;
+    font-weight: 600;
+}
+.button:hover {
+      /* background-image: linear-gradient(-37.714deg,#2af598,#009efd); */
+      background-image: linear-gradient(to right,#10bfd6,#1ddab7);
+      padding: 20px 40px;
+     color: #fff; 
+    
+      font-family: "Montserrat",sans-serif;
+      font-size: 18px;
+     
+      border-radius: 0 35px 0 35px;
+      text-decoration: none!important;
+      font-weight: 600;
+
+}
+.img{
+    height: 50px;
+    width: 50px;
+}
+.achievement-div{
+    width: 520px;
+    height:100px;
+}
+p{
+    font-size: 15px;
+}
+.achievement{
+    background-color:rgb(250, 255, 253);
+}
