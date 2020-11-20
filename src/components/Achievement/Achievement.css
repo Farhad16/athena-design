@@ -2,41 +2,49 @@
     font-family: 'Yeseva One', cursive;
     font-size: 40px;
 }
+
+.left{
+    border-radius: 0 50px 0 50px;
+}
+
+.right{
+    border-radius: 50px 0 50px 0;
+}
+
 .button {
    background-color: white;
-    padding: 20px 40px;
+    padding: 20px 45px 10px;
     box-shadow: 10px 10px 10px 10px#ecfdf5;
     color: black;
     font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    text-decoration: none!important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(27,214,188);
+    background: linear-gradient(90deg, rgba(27,214,188,1) 0%, rgba(16,191,214,1) 50%, rgba(7,172,236,1) 100%);
+    color: #fff; 
+    font-family: "Montserrat",sans-serif;
     font-size: 18px;
-  
-    border-radius: 0 35px 0 35px;
     text-decoration: none!important;
     font-weight: 600;
 }
-.button:hover {
-      /* background-image: linear-gradient(-37.714deg,#2af598,#009efd); */
-      background-image: linear-gradient(to right,#10bfd6,#1ddab7);
-      padding: 20px 40px;
-     color: #fff; 
-    
-      font-family: "Montserrat",sans-serif;
-      font-size: 18px;
-     
-      border-radius: 0 35px 0 35px;
-      text-decoration: none!important;
-      font-weight: 600;
 
-}
 .img{
     height: 50px;
     width: 50px;
 }
+
 .achievement-div{
-    width: 520px;
-    height:100px;
+    width: 550px;
+    box-sizing: border-box;
 }
-p{
+
+.achievement p{
     font-size: 15px;
 }
 .achievement{

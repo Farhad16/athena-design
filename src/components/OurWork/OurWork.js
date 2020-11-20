@@ -10,7 +10,7 @@ import illus from '../../images/Group 72@2x.png';
 const OurWork = () => {
     return (
         <div className="ourWork">
-            <div className="justify-content-center py-3 line">
+            <div className="justify-content-center py-3 bgline">
                 <h2 className="font-weight-bold text-center pt-5">What we do</h2>
                 <p className="text-secondary">
                     <small>Our main focus is to make the user experience way <br />simple and easy simplicity is our strength</small>

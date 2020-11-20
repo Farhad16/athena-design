@@ -1,6 +1,5 @@
 .logo img{
     width: 170px;
-    /* height: 50px; */
 }
 .navigation ul {
     display: flex;
@@ -17,6 +16,7 @@
     font-weight: 500;
     font-family: 'Calibri', sans-serif;
 }
+
 .navigation ul li.active{
     font-weight: 600;
 }

@@ -1,7 +1,11 @@
-.line{
+.bgline{
     background: url('../../image/line.png');
     background-repeat: no-repeat;
     background-position: bottom;
+}
+
+.bgline h2{
+    font-family: 'Yeseva One', cursive;
 }
 .ourWork{
     background-color: #FAFFFD;

@@ -1,0 +1,36 @@
+.project-area{
+    background: url('../../images/Group\ 46@2x.png');
+    background-repeat: no-repeat;
+    background-size: 80% 150% ;
+    background-position: right;
+}
+
+.project-content{
+    padding-top: 60px;
+}
+.project-title{
+    font-family: 'Yeseva One', cursive;
+}
+
+.project-img{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 100px;
+}
+.project-img img{
+    width: 520px;
+}
+
+
+.contact-btn {
+    background: rgb(27,214,188);
+    background: linear-gradient(90deg, rgba(27,214,188,1) 0%, rgba(16,191,214,1) 50%, rgba(7,172,236,1) 100%);
+    padding: 15px 30px;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    border-radius: 30px 0 30px 0;
+    text-decoration: none!important;
+    font-weight: 500;
+}
